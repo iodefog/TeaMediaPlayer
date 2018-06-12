@@ -1,0 +1,6 @@
+framework module SohuVideoFoundation {
+  umbrella header "SohuVideoFoundation.h"
+
+  export *
+  module * { export * }
+}

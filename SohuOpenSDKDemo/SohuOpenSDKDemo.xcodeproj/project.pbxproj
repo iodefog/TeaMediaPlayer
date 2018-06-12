@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CA83B6F8C5E1E5523684F4F /* libPods-SohuOpenSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 102D6D09973B3B76653A2DB1 /* libPods-SohuOpenSDKDemo.a */; };
+		C321D70C1F14705400322215 /* SwitchResolutionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C321D70B1F14705400322215 /* SwitchResolutionView.m */; };
+		C37BEFE11EE94AAD002E72A0 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BEFC81EE94AAD002E72A0 /* MASCompositeConstraint.m */; };
+		C37BEFE21EE94AAD002E72A0 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BEFCB1EE94AAD002E72A0 /* MASConstraint.m */; };
+		C37BEFE31EE94AAD002E72A0 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BEFCD1EE94AAD002E72A0 /* MASConstraintMaker.m */; };
+		C37BEFE41EE94AAD002E72A0 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BEFCF1EE94AAD002E72A0 /* MASLayoutConstraint.m */; };
+		C37BEFE51EE94AAD002E72A0 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BEFD31EE94AAD002E72A0 /* MASViewAttribute.m */; };
+		C37BEFE61EE94AAD002E72A0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BEFD51EE94AAD002E72A0 /* MASViewConstraint.m */; };
+		C37BEFE71EE94AAD002E72A0 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BEFD71EE94AAD002E72A0 /* NSArray+MASAdditions.m */; };
+		C37BEFE81EE94AAD002E72A0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BEFDA1EE94AAD002E72A0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C37BEFE91EE94AAD002E72A0 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BEFDC1EE94AAD002E72A0 /* View+MASAdditions.m */; };
+		C37BEFEA1EE94AAD002E72A0 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BEFDF1EE94AAD002E72A0 /* ViewController+MASAdditions.m */; };
+		C37BEFF31EEA3AB5002E72A0 /* SHPlaybackOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BEFF21EEA3AB5002E72A0 /* SHPlaybackOverlay.m */; };
+		C37BF1881EF0E350002E72A0 /* SohuOpenSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BF1871EF0E350002E72A0 /* SohuOpenSDKDemoTests.m */; };
+		C37BF1C31EF11AE1002E72A0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDA8E8D1ED2757E000487B0 /* libsqlite3.tbd */; };
+		C445F9AB1F01E8A900FDCCC8 /* SHVideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C445F9AA1F01E8A900FDCCC8 /* SHVideoListViewController.m */; };
+		C44626A01EEE5A1F000ABD58 /* SHLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = C446269F1EEE5A1F000ABD58 /* SHLoading.m */; };
+		C44626A31EEE5A3B000ABD58 /* UIView+SHLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = C44626A21EEE5A3B000ABD58 /* UIView+SHLoading.m */; };
+		C7A96E2F20B6A6420058D31D /* SohuPlayerConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7A96E2E20B6A6410058D31D /* SohuPlayerConfig.plist */; };
+		D53785C175B3E222A8539067 /* libPods-SohuOpenSDKDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFBD1526530545E7CF0FAE8 /* libPods-SohuOpenSDKDemoTests.a */; };
+		DD5F2BA91EBFF812000C6B03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5F2BA81EBFF812000C6B03 /* main.m */; };
+		DD5F2BAC1EBFF812000C6B03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5F2BAB1EBFF812000C6B03 /* AppDelegate.m */; };
+		DD5F2BAF1EBFF812000C6B03 /* SHPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5F2BAE1EBFF812000C6B03 /* SHPlayerViewController.m */; };
+		DD5F2BB21EBFF812000C6B03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5F2BB01EBFF812000C6B03 /* Main.storyboard */; };
+		DD5F2BB41EBFF812000C6B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5F2BB31EBFF812000C6B03 /* Assets.xcassets */; };
+		DD5F2BB71EBFF812000C6B03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5F2BB51EBFF812000C6B03 /* LaunchScreen.storyboard */; };
+		DD5F2BCD1EBFFF12000C6B03 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5F2BC11EBFFDC4000C6B03 /* libicucore.tbd */; };
+		DD5F2BCE1EBFFF1C000C6B03 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5F2BC31EBFFDCE000C6B03 /* libstdc++.tbd */; };
+		DD5F2BCF1EBFFF2D000C6B03 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5F2BC51EBFFDD9000C6B03 /* libresolv.tbd */; };
+		DD5F2BD01EBFFF33000C6B03 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5F2BC71EBFFDDF000C6B03 /* libbz2.tbd */; };
+		DD5F2BD11EBFFF45000C6B03 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5F2BC91EBFFDE4000C6B03 /* libz.tbd */; };
+		DD5F2BD21EBFFF51000C6B03 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5F2BCB1EBFFDEB000C6B03 /* libiconv.tbd */; };
+		DD8B2EAF1EC141FC006C86C8 /* SVWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8B2EAE1EC141FC006C86C8 /* SVWeakProxy.m */; };
+		DD9C5AA61ECBE1310030F12E /* SHRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9C5AA51ECBE1310030F12E /* SHRootViewController.m */; };
+		DDDA8E8E1ED2757E000487B0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDA8E8D1ED2757E000487B0 /* libsqlite3.tbd */; };
+		DDDA8E901ED27587000487B0 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDA8E8F1ED27587000487B0 /* libxml2.tbd */; };
+		DDDA8E921ED2758D000487B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDA8E911ED2758D000487B0 /* AVFoundation.framework */; };
+		DDDA8E941ED27594000487B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDA8E931ED27594000487B0 /* SystemConfiguration.framework */; };
+		DDDA8E961ED2759B000487B0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDA8E951ED2759B000487B0 /* CoreLocation.framework */; };
+		DDDA8E981ED275A5000487B0 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDA8E971ED275A5000487B0 /* AdSupport.framework */; };
+		DDDA8E9B1ED275B7000487B0 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDA8E991ED275B7000487B0 /* EventKit.framework */; };
+		DDDA8E9C1ED275B7000487B0 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDA8E9A1ED275B7000487B0 /* EventKitUI.framework */; };
+		DDDA8E9E1ED275BE000487B0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDA8E9D1ED275BE000487B0 /* AudioToolbox.framework */; };
+		DDDA8EA01ED275C8000487B0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDA8E9F1ED275C8000487B0 /* libc++.tbd */; };
+		DDDA8EA21ED275DA000487B0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDA8EA11ED275DA000487B0 /* CoreTelephony.framework */; };
+		DDDA8EA41ED275E4000487B0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDA8EA31ED275E4000487B0 /* StoreKit.framework */; };
+		DDDA8EA61ED275EA000487B0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDA8EA51ED275EA000487B0 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C37BF18A1EF0E350002E72A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5F2B9C1EBFF812000C6B03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5F2BA31EBFF812000C6B03;
+			remoteInfo = SohuOpenSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		101DC4D16D0FD7942E611588 /* Pods-SohuOpenSDKDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SohuOpenSDKDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SohuOpenSDKDemoTests/Pods-SohuOpenSDKDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		102D6D09973B3B76653A2DB1 /* libPods-SohuOpenSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SohuOpenSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2612A09F6AE72038775385E0 /* Pods-SohuOpenSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SohuOpenSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SohuOpenSDKDemo/Pods-SohuOpenSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3DE1D64045C30F4A9AE7A202 /* Pods-SohuOpenSDKDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SohuOpenSDKDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SohuOpenSDKDemoTests/Pods-SohuOpenSDKDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0C6081D8995FD899BF32537 /* Pods-SohuOpenSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SohuOpenSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SohuOpenSDKDemo/Pods-SohuOpenSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BBFBD1526530545E7CF0FAE8 /* libPods-SohuOpenSDKDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SohuOpenSDKDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C321D70A1F14705400322215 /* SwitchResolutionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchResolutionView.h; sourceTree = "<group>"; };
+		C321D70B1F14705400322215 /* SwitchResolutionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchResolutionView.m; sourceTree = "<group>"; };
+		C37BEFC61EE94AAD002E72A0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C37BEFC71EE94AAD002E72A0 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		C37BEFC81EE94AAD002E72A0 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		C37BEFC91EE94AAD002E72A0 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		C37BEFCA1EE94AAD002E72A0 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		C37BEFCB1EE94AAD002E72A0 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		C37BEFCC1EE94AAD002E72A0 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		C37BEFCD1EE94AAD002E72A0 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		C37BEFCE1EE94AAD002E72A0 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C37BEFCF1EE94AAD002E72A0 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		C37BEFD01EE94AAD002E72A0 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		C37BEFD11EE94AAD002E72A0 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		C37BEFD21EE94AAD002E72A0 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		C37BEFD31EE94AAD002E72A0 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		C37BEFD41EE94AAD002E72A0 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		C37BEFD51EE94AAD002E72A0 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		C37BEFD61EE94AAD002E72A0 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		C37BEFD71EE94AAD002E72A0 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		C37BEFD81EE94AAD002E72A0 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		C37BEFD91EE94AAD002E72A0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		C37BEFDA1EE94AAD002E72A0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		C37BEFDB1EE94AAD002E72A0 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		C37BEFDC1EE94AAD002E72A0 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		C37BEFDD1EE94AAD002E72A0 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		C37BEFDE1EE94AAD002E72A0 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		C37BEFDF1EE94AAD002E72A0 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		C37BEFF11EEA3AB5002E72A0 /* SHPlaybackOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHPlaybackOverlay.h; sourceTree = "<group>"; };
+		C37BEFF21EEA3AB5002E72A0 /* SHPlaybackOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHPlaybackOverlay.m; sourceTree = "<group>"; };
+		C37BF1851EF0E350002E72A0 /* SohuOpenSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SohuOpenSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37BF1871EF0E350002E72A0 /* SohuOpenSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SohuOpenSDKDemoTests.m; sourceTree = "<group>"; };
+		C37BF1891EF0E350002E72A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C445F9A91F01E8A900FDCCC8 /* SHVideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHVideoListViewController.h; sourceTree = "<group>"; };
+		C445F9AA1F01E8A900FDCCC8 /* SHVideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHVideoListViewController.m; sourceTree = "<group>"; };
+		C446269E1EEE5A1F000ABD58 /* SHLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLoading.h; sourceTree = "<group>"; };
+		C446269F1EEE5A1F000ABD58 /* SHLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLoading.m; sourceTree = "<group>"; };
+		C44626A11EEE5A3B000ABD58 /* UIView+SHLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SHLoading.h"; sourceTree = "<group>"; };
+		C44626A21EEE5A3B000ABD58 /* UIView+SHLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SHLoading.m"; sourceTree = "<group>"; };
+		C7A96E2E20B6A6410058D31D /* SohuPlayerConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SohuPlayerConfig.plist; sourceTree = "<group>"; };
+		DD5F2BA41EBFF812000C6B03 /* SohuOpenSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SohuOpenSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5F2BA81EBFF812000C6B03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD5F2BAA1EBFF812000C6B03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD5F2BAB1EBFF812000C6B03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD5F2BAD1EBFF812000C6B03 /* SHPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHPlayerViewController.h; sourceTree = "<group>"; };
+		DD5F2BAE1EBFF812000C6B03 /* SHPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHPlayerViewController.m; sourceTree = "<group>"; };
+		DD5F2BB11EBFF812000C6B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD5F2BB31EBFF812000C6B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD5F2BB61EBFF812000C6B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD5F2BB81EBFF812000C6B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5F2BC11EBFFDC4000C6B03 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		DD5F2BC31EBFFDCE000C6B03 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		DD5F2BC51EBFFDD9000C6B03 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		DD5F2BC71EBFFDDF000C6B03 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		DD5F2BC91EBFFDE4000C6B03 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DD5F2BCB1EBFFDEB000C6B03 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		DD8B2EAD1EC141FC006C86C8 /* SVWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVWeakProxy.h; sourceTree = "<group>"; };
+		DD8B2EAE1EC141FC006C86C8 /* SVWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVWeakProxy.m; sourceTree = "<group>"; };
+		DD9C5AA41ECBE1310030F12E /* SHRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHRootViewController.h; sourceTree = "<group>"; };
+		DD9C5AA51ECBE1310030F12E /* SHRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHRootViewController.m; sourceTree = "<group>"; };
+		DDDA8E8D1ED2757E000487B0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		DDDA8E8F1ED27587000487B0 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		DDDA8E911ED2758D000487B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DDDA8E931ED27594000487B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DDDA8E951ED2759B000487B0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DDDA8E971ED275A5000487B0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		DDDA8E991ED275B7000487B0 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		DDDA8E9A1ED275B7000487B0 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		DDDA8E9D1ED275BE000487B0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DDDA8E9F1ED275C8000487B0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		DDDA8EA11ED275DA000487B0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DDDA8EA31ED275E4000487B0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DDDA8EA51ED275EA000487B0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		DDDA8EA71ED275F1000487B0 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		DDDA8EBB1ED286E4000487B0 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		DDDA8EBD1ED286FD000487B0 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C37BF1821EF0E350002E72A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37BF1C31EF11AE1002E72A0 /* libsqlite3.tbd in Frameworks */,
+				D53785C175B3E222A8539067 /* libPods-SohuOpenSDKDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5F2BA11EBFF812000C6B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDA8EA61ED275EA000487B0 /* WebKit.framework in Frameworks */,
+				DDDA8EA41ED275E4000487B0 /* StoreKit.framework in Frameworks */,
+				DDDA8EA21ED275DA000487B0 /* CoreTelephony.framework in Frameworks */,
+				DDDA8EA01ED275C8000487B0 /* libc++.tbd in Frameworks */,
+				DDDA8E9E1ED275BE000487B0 /* AudioToolbox.framework in Frameworks */,
+				DDDA8E9B1ED275B7000487B0 /* EventKit.framework in Frameworks */,
+				DDDA8E9C1ED275B7000487B0 /* EventKitUI.framework in Frameworks */,
+				DDDA8E981ED275A5000487B0 /* AdSupport.framework in Frameworks */,
+				DDDA8E961ED2759B000487B0 /* CoreLocation.framework in Frameworks */,
+				DDDA8E941ED27594000487B0 /* SystemConfiguration.framework in Frameworks */,
+				DDDA8E921ED2758D000487B0 /* AVFoundation.framework in Frameworks */,
+				DDDA8E901ED27587000487B0 /* libxml2.tbd in Frameworks */,
+				DDDA8E8E1ED2757E000487B0 /* libsqlite3.tbd in Frameworks */,
+				DD5F2BD21EBFFF51000C6B03 /* libiconv.tbd in Frameworks */,
+				DD5F2BD11EBFFF45000C6B03 /* libz.tbd in Frameworks */,
+				DD5F2BD01EBFFF33000C6B03 /* libbz2.tbd in Frameworks */,
+				DD5F2BCF1EBFFF2D000C6B03 /* libresolv.tbd in Frameworks */,
+				DD5F2BCE1EBFFF1C000C6B03 /* libstdc++.tbd in Frameworks */,
+				DD5F2BCD1EBFFF12000C6B03 /* libicucore.tbd in Frameworks */,
+				4CA83B6F8C5E1E5523684F4F /* libPods-SohuOpenSDKDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C37BEFC51EE94AAD002E72A0 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				C37BEFC61EE94AAD002E72A0 /* Info.plist */,
+				C37BEFC71EE94AAD002E72A0 /* MASCompositeConstraint.h */,
+				C37BEFC81EE94AAD002E72A0 /* MASCompositeConstraint.m */,
+				C37BEFC91EE94AAD002E72A0 /* MASConstraint+Private.h */,
+				C37BEFCA1EE94AAD002E72A0 /* MASConstraint.h */,
+				C37BEFCB1EE94AAD002E72A0 /* MASConstraint.m */,
+				C37BEFCC1EE94AAD002E72A0 /* MASConstraintMaker.h */,
+				C37BEFCD1EE94AAD002E72A0 /* MASConstraintMaker.m */,
+				C37BEFCE1EE94AAD002E72A0 /* MASLayoutConstraint.h */,
+				C37BEFCF1EE94AAD002E72A0 /* MASLayoutConstraint.m */,
+				C37BEFD01EE94AAD002E72A0 /* Masonry.h */,
+				C37BEFD11EE94AAD002E72A0 /* MASUtilities.h */,
+				C37BEFD21EE94AAD002E72A0 /* MASViewAttribute.h */,
+				C37BEFD31EE94AAD002E72A0 /* MASViewAttribute.m */,
+				C37BEFD41EE94AAD002E72A0 /* MASViewConstraint.h */,
+				C37BEFD51EE94AAD002E72A0 /* MASViewConstraint.m */,
+				C37BEFD61EE94AAD002E72A0 /* NSArray+MASAdditions.h */,
+				C37BEFD71EE94AAD002E72A0 /* NSArray+MASAdditions.m */,
+				C37BEFD81EE94AAD002E72A0 /* NSArray+MASShorthandAdditions.h */,
+				C37BEFD91EE94AAD002E72A0 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				C37BEFDA1EE94AAD002E72A0 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				C37BEFDB1EE94AAD002E72A0 /* View+MASAdditions.h */,
+				C37BEFDC1EE94AAD002E72A0 /* View+MASAdditions.m */,
+				C37BEFDD1EE94AAD002E72A0 /* View+MASShorthandAdditions.h */,
+				C37BEFDE1EE94AAD002E72A0 /* ViewController+MASAdditions.h */,
+				C37BEFDF1EE94AAD002E72A0 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		C37BF1861EF0E350002E72A0 /* SohuOpenSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C37BF1871EF0E350002E72A0 /* SohuOpenSDKDemoTests.m */,
+				C37BF1891EF0E350002E72A0 /* Info.plist */,
+			);
+			path = SohuOpenSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		C446269D1EEE59DD000ABD58 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				C446269E1EEE5A1F000ABD58 /* SHLoading.h */,
+				C446269F1EEE5A1F000ABD58 /* SHLoading.m */,
+				C44626A11EEE5A3B000ABD58 /* UIView+SHLoading.h */,
+				C44626A21EEE5A3B000ABD58 /* UIView+SHLoading.m */,
+			);
+			name = Loading;
+			sourceTree = "<group>";
+		};
+		DD5F2B9B1EBFF812000C6B03 = {
+			isa = PBXGroup;
+			children = (
+				DD5F2BA61EBFF812000C6B03 /* SohuOpenSDKDemo */,
+				C37BF1861EF0E350002E72A0 /* SohuOpenSDKDemoTests */,
+				DD5F2BA51EBFF812000C6B03 /* Products */,
+				DD5F2BBE1EBFF843000C6B03 /* Frameworks */,
+				FA9279072C11AAA3329BE147 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DD5F2BA51EBFF812000C6B03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5F2BA41EBFF812000C6B03 /* SohuOpenSDKDemo.app */,
+				C37BF1851EF0E350002E72A0 /* SohuOpenSDKDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD5F2BA61EBFF812000C6B03 /* SohuOpenSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C446269D1EEE59DD000ABD58 /* Loading */,
+				C37BEFC51EE94AAD002E72A0 /* Masonry */,
+				DD5F2BAA1EBFF812000C6B03 /* AppDelegate.h */,
+				DD5F2BAB1EBFF812000C6B03 /* AppDelegate.m */,
+				DD9C5AA41ECBE1310030F12E /* SHRootViewController.h */,
+				DD9C5AA51ECBE1310030F12E /* SHRootViewController.m */,
+				DD5F2BAD1EBFF812000C6B03 /* SHPlayerViewController.h */,
+				DD5F2BAE1EBFF812000C6B03 /* SHPlayerViewController.m */,
+				C445F9A91F01E8A900FDCCC8 /* SHVideoListViewController.h */,
+				C445F9AA1F01E8A900FDCCC8 /* SHVideoListViewController.m */,
+				C37BEFF11EEA3AB5002E72A0 /* SHPlaybackOverlay.h */,
+				C37BEFF21EEA3AB5002E72A0 /* SHPlaybackOverlay.m */,
+				DD8B2EAD1EC141FC006C86C8 /* SVWeakProxy.h */,
+				DD8B2EAE1EC141FC006C86C8 /* SVWeakProxy.m */,
+				C321D70A1F14705400322215 /* SwitchResolutionView.h */,
+				C321D70B1F14705400322215 /* SwitchResolutionView.m */,
+				DD5F2BA71EBFF812000C6B03 /* Supporting Files */,
+			);
+			path = SohuOpenSDKDemo;
+			sourceTree = "<group>";
+		};
+		DD5F2BA71EBFF812000C6B03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD5F2BB01EBFF812000C6B03 /* Main.storyboard */,
+				DD5F2BB31EBFF812000C6B03 /* Assets.xcassets */,
+				DD5F2BB51EBFF812000C6B03 /* LaunchScreen.storyboard */,
+				DD5F2BB81EBFF812000C6B03 /* Info.plist */,
+				DD5F2BA81EBFF812000C6B03 /* main.m */,
+				C7A96E2E20B6A6410058D31D /* SohuPlayerConfig.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD5F2BBE1EBFF843000C6B03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDDA8EBD1ED286FD000487B0 /* Contacts.framework */,
+				DDDA8EBB1ED286E4000487B0 /* ContactsUI.framework */,
+				DDDA8EA71ED275F1000487B0 /* AddressBook.framework */,
+				DDDA8EA31ED275E4000487B0 /* StoreKit.framework */,
+				DDDA8EA11ED275DA000487B0 /* CoreTelephony.framework */,
+				DDDA8E9F1ED275C8000487B0 /* libc++.tbd */,
+				DDDA8E9D1ED275BE000487B0 /* AudioToolbox.framework */,
+				DDDA8E991ED275B7000487B0 /* EventKit.framework */,
+				DDDA8E9A1ED275B7000487B0 /* EventKitUI.framework */,
+				DDDA8E971ED275A5000487B0 /* AdSupport.framework */,
+				DDDA8E951ED2759B000487B0 /* CoreLocation.framework */,
+				DDDA8E931ED27594000487B0 /* SystemConfiguration.framework */,
+				DDDA8E911ED2758D000487B0 /* AVFoundation.framework */,
+				DDDA8EA51ED275EA000487B0 /* WebKit.framework */,
+				DDDA8E8F1ED27587000487B0 /* libxml2.tbd */,
+				DDDA8E8D1ED2757E000487B0 /* libsqlite3.tbd */,
+				DD5F2BCB1EBFFDEB000C6B03 /* libiconv.tbd */,
+				DD5F2BC91EBFFDE4000C6B03 /* libz.tbd */,
+				DD5F2BC71EBFFDDF000C6B03 /* libbz2.tbd */,
+				DD5F2BC51EBFFDD9000C6B03 /* libresolv.tbd */,
+				DD5F2BC31EBFFDCE000C6B03 /* libstdc++.tbd */,
+				DD5F2BC11EBFFDC4000C6B03 /* libicucore.tbd */,
+				102D6D09973B3B76653A2DB1 /* libPods-SohuOpenSDKDemo.a */,
+				BBFBD1526530545E7CF0FAE8 /* libPods-SohuOpenSDKDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA9279072C11AAA3329BE147 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0C6081D8995FD899BF32537 /* Pods-SohuOpenSDKDemo.debug.xcconfig */,
+				2612A09F6AE72038775385E0 /* Pods-SohuOpenSDKDemo.release.xcconfig */,
+				3DE1D64045C30F4A9AE7A202 /* Pods-SohuOpenSDKDemoTests.debug.xcconfig */,
+				101DC4D16D0FD7942E611588 /* Pods-SohuOpenSDKDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C37BF1841EF0E350002E72A0 /* SohuOpenSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37BF18E1EF0E350002E72A0 /* Build configuration list for PBXNativeTarget "SohuOpenSDKDemoTests" */;
+			buildPhases = (
+				1E3E41A004C422ED611BF27F /* [CP] Check Pods Manifest.lock */,
+				C37BF1811EF0E350002E72A0 /* Sources */,
+				C37BF1821EF0E350002E72A0 /* Frameworks */,
+				C37BF1831EF0E350002E72A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C37BF18B1EF0E350002E72A0 /* PBXTargetDependency */,
+			);
+			name = SohuOpenSDKDemoTests;
+			productName = SohuOpenSDKDemoTests;
+			productReference = C37BF1851EF0E350002E72A0 /* SohuOpenSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD5F2BA31EBFF812000C6B03 /* SohuOpenSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5F2BBB1EBFF812000C6B03 /* Build configuration list for PBXNativeTarget "SohuOpenSDKDemo" */;
+			buildPhases = (
+				5E2614D3B8456095082AED02 /* [CP] Check Pods Manifest.lock */,
+				DD5F2BA01EBFF812000C6B03 /* Sources */,
+				DD5F2BA11EBFF812000C6B03 /* Frameworks */,
+				DD5F2BA21EBFF812000C6B03 /* Resources */,
+				3E6BE3E3DC5D85EFE74A78F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SohuOpenSDKDemo;
+			productName = SohuOpenSDKDemo;
+			productReference = DD5F2BA41EBFF812000C6B03 /* SohuOpenSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD5F2B9C1EBFF812000C6B03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "sohu-inc";
+				TargetAttributes = {
+					C37BF1841EF0E350002E72A0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+						TestTargetID = DD5F2BA31EBFF812000C6B03;
+					};
+					DD5F2BA31EBFF812000C6B03 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M675EFBDE2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = DD5F2B9F1EBFF812000C6B03 /* Build configuration list for PBXProject "SohuOpenSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD5F2B9B1EBFF812000C6B03;
+			productRefGroup = DD5F2BA51EBFF812000C6B03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD5F2BA31EBFF812000C6B03 /* SohuOpenSDKDemo */,
+				C37BF1841EF0E350002E72A0 /* SohuOpenSDKDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C37BF1831EF0E350002E72A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5F2BA21EBFF812000C6B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5F2BB71EBFF812000C6B03 /* LaunchScreen.storyboard in Resources */,
+				DD5F2BB41EBFF812000C6B03 /* Assets.xcassets in Resources */,
+				C7A96E2F20B6A6420058D31D /* SohuPlayerConfig.plist in Resources */,
+				DD5F2BB21EBFF812000C6B03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E3E41A004C422ED611BF27F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SohuOpenSDKDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E6BE3E3DC5D85EFE74A78F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SohuOpenSDKDemo/Pods-SohuOpenSDKDemo-resources.sh",
+				"${PODS_ROOT}/TeaMediaPlayer/SohuVideoFoundation.framework/STADAsset.bundle",
+				"${PODS_ROOT}/TeaMediaPlayer/SohuVideoFoundation.framework/SohuVideoFoundation.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/STADAsset.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SohuVideoFoundation.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SohuOpenSDKDemo/Pods-SohuOpenSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E2614D3B8456095082AED02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SohuOpenSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C37BF1811EF0E350002E72A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37BF1881EF0E350002E72A0 /* SohuOpenSDKDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5F2BA01EBFF812000C6B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37BEFE21EE94AAD002E72A0 /* MASConstraint.m in Sources */,
+				C37BEFE51EE94AAD002E72A0 /* MASViewAttribute.m in Sources */,
+				C321D70C1F14705400322215 /* SwitchResolutionView.m in Sources */,
+				C37BEFEA1EE94AAD002E72A0 /* ViewController+MASAdditions.m in Sources */,
+				C445F9AB1F01E8A900FDCCC8 /* SHVideoListViewController.m in Sources */,
+				C44626A01EEE5A1F000ABD58 /* SHLoading.m in Sources */,
+				C37BEFE71EE94AAD002E72A0 /* NSArray+MASAdditions.m in Sources */,
+				C37BEFE61EE94AAD002E72A0 /* MASViewConstraint.m in Sources */,
+				C37BEFE41EE94AAD002E72A0 /* MASLayoutConstraint.m in Sources */,
+				DD9C5AA61ECBE1310030F12E /* SHRootViewController.m in Sources */,
+				C44626A31EEE5A3B000ABD58 /* UIView+SHLoading.m in Sources */,
+				DD8B2EAF1EC141FC006C86C8 /* SVWeakProxy.m in Sources */,
+				C37BEFE91EE94AAD002E72A0 /* View+MASAdditions.m in Sources */,
+				C37BEFE11EE94AAD002E72A0 /* MASCompositeConstraint.m in Sources */,
+				C37BEFE81EE94AAD002E72A0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				C37BEFE31EE94AAD002E72A0 /* MASConstraintMaker.m in Sources */,
+				DD5F2BAF1EBFF812000C6B03 /* SHPlayerViewController.m in Sources */,
+				C37BEFF31EEA3AB5002E72A0 /* SHPlaybackOverlay.m in Sources */,
+				DD5F2BAC1EBFF812000C6B03 /* AppDelegate.m in Sources */,
+				DD5F2BA91EBFF812000C6B03 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C37BF18B1EF0E350002E72A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5F2BA31EBFF812000C6B03 /* SohuOpenSDKDemo */;
+			targetProxy = C37BF18A1EF0E350002E72A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD5F2BB01EBFF812000C6B03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5F2BB11EBFF812000C6B03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD5F2BB51EBFF812000C6B03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5F2BB61EBFF812000C6B03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C37BF18C1EF0E350002E72A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE1D64045C30F4A9AE7A202 /* Pods-SohuOpenSDKDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SohuOpenSDKDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sohu.SohuOpenSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SohuOpenSDKDemo.app/SohuOpenSDKDemo";
+			};
+			name = Debug;
+		};
+		C37BF18D1EF0E350002E72A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101DC4D16D0FD7942E611588 /* Pods-SohuOpenSDKDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SohuOpenSDKDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sohu.SohuOpenSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SohuOpenSDKDemo.app/SohuOpenSDKDemo";
+			};
+			name = Release;
+		};
+		DD5F2BB91EBFF812000C6B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD5F2BBA1EBFF812000C6B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD5F2BBC1EBFF812000C6B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0C6081D8995FD899BF32537 /* Pods-SohuOpenSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = M675EFBDE2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SohuOpenSDKDemo/Dependencies",
+					../,
+				);
+				INFOPLIST_FILE = SohuOpenSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sohu.sdk.Open;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7d26ab73-899a-41fc-8049-26d5fcc64618";
+				PROVISIONING_PROFILE_SPECIFIER = Common_lhl_Development;
+			};
+			name = Debug;
+		};
+		DD5F2BBD1EBFF812000C6B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2612A09F6AE72038775385E0 /* Pods-SohuOpenSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = M675EFBDE2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SohuOpenSDKDemo/Dependencies",
+					../,
+				);
+				INFOPLIST_FILE = SohuOpenSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sohu.sdk.Open;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7d26ab73-899a-41fc-8049-26d5fcc64618";
+				PROVISIONING_PROFILE_SPECIFIER = Common_lhl_Development;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C37BF18E1EF0E350002E72A0 /* Build configuration list for PBXNativeTarget "SohuOpenSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37BF18C1EF0E350002E72A0 /* Debug */,
+				C37BF18D1EF0E350002E72A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5F2B9F1EBFF812000C6B03 /* Build configuration list for PBXProject "SohuOpenSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5F2BB91EBFF812000C6B03 /* Debug */,
+				DD5F2BBA1EBFF812000C6B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5F2BBB1EBFF812000C6B03 /* Build configuration list for PBXNativeTarget "SohuOpenSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5F2BBC1EBFF812000C6B03 /* Debug */,
+				DD5F2BBD1EBFF812000C6B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD5F2B9C1EBFF812000C6B03 /* Project object */;
+}

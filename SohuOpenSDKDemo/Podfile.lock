@@ -1,0 +1,16 @@
+PODS:
+  - TeaMediaPlayer (6.5.1)
+
+DEPENDENCIES:
+  - TeaMediaPlayer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TeaMediaPlayer
+
+SPEC CHECKSUMS:
+  TeaMediaPlayer: abe4ad534988343baa42177b9aa8627e7e05cc7a
+
+PODFILE CHECKSUM: 638b989deef4c56584c08a7347894a41501a9b16
+
+COCOAPODS: 1.5.3
