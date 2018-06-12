@@ -471,8 +471,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SohuOpenSDKDemo/Pods-SohuOpenSDKDemo-resources.sh",
-				"${PODS_ROOT}/TeaMediaPlayer/SohuVideoFoundation.framework/STADAsset.bundle",
-				"${PODS_ROOT}/TeaMediaPlayer/SohuVideoFoundation.framework/SohuVideoFoundation.bundle",
+				"${PODS_ROOT}/../../SohuVideoFoundation.framework/STADAsset.bundle",
+				"${PODS_ROOT}/../../SohuVideoFoundation.framework/SohuVideoFoundation.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
